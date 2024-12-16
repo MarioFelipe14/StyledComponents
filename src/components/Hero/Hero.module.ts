@@ -9,7 +9,7 @@ export const Form = styled.form`
   display: flex;
   align-items: center;
 
-  .form::before {
+  &::before {
     position: absolute;
     top: 0;
     left: 0;
@@ -20,17 +20,15 @@ export const Form = styled.form`
     opacity: 0.7;
   }
 
-  .form div {
+  & > div {
     position: relative;
     color: #eee;
   }
 `
 
 export const HeroTitle = styled.h2`
-  .heroTitle {
-    font-family: Gloock, serif;
-    font-size: 48px;
-  }
+  font-family: Gloock, serif;
+  font-size: 48px;
 
   @media (max-width: 768px) {
     .form {

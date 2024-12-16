@@ -2,7 +2,7 @@ import { Form, HeroTitle } from './Hero.module'
 
 const Hero = () => (
   <Form>
-    <div>
+    <div className="container">
       <HeroTitle>
         As melhores vagas para tecnologia, design e artes visuais.
       </HeroTitle>
